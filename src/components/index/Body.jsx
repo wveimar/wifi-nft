@@ -47,7 +47,7 @@ export const Body = () => {
             alt="Picture of the author"
           />
         </Box>
-        <Box sx={{ zIndex: "1", display: "block" }}>
+        <Box sx={{ zIndex: "1", position:"relative" }}>
           <Image layout="intrinsic" src={bragrund} alt="color de fondo" />
         </Box>
         <Stack
