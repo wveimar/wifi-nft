@@ -2,8 +2,9 @@ import Image from "next/image";
 import bragrund from "../../../public/image/fondo.png";
 import logo_large from "../../../public/image/002.png";
 import galery from "../../../public/image/007.png";
-import { Box, Stack, Button } from "@mui/material";
+import { Box, Stack, Button, Grid } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
+import Galery from "../Galery"
 
 const style = (theme) => ({
   zIndex: "2",
@@ -71,7 +72,7 @@ export const Body = () => {
             sx={{ backgroundColor: "#91d8f6", width: "30%" }}
           />
         </Stack>
-        <Image layout="intrinsic" src={galery} alt="Picture of the author" />
+        <Galery />
       </Box>
     </>
   );
