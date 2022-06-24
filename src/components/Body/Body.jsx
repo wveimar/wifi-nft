@@ -5,6 +5,8 @@ import galery from "../../../public/image/007.png";
 import { Box, Stack, Button, Grid } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
 import Galery from "../Galery"
+import Descriptionwifi from "../Description"
+import RoadMap from "../RoadMapa"
 
 const style = (theme) => ({
   zIndex: "2",
@@ -73,6 +75,8 @@ export const Body = () => {
           />
         </Stack>
         <Galery />
+        <Descriptionwifi />
+        <RoadMap />
       </Box>
     </>
   );
