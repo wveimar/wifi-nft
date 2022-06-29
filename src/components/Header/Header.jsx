@@ -65,9 +65,9 @@ export const Header = () => {
             <div style={{marginLeft: "10px", marginRight: "10px"}}>
               <Image height={"25px"} width={"25px"} src={logoMetamask} />
             </div>
-            <div>
+            <a href="https://opensea.io/wifioficial">
               <Image height={"25px"} width={"25px"} src={logoOpenSea} />
-            </div>
+            </a>
           </Box>
         </AppBar>
       </Box>

@@ -19,7 +19,7 @@ const index = () => {
       <div style={{ width: "750px", marginRight: "auto", marginLeft: "auto" }}>
         <Typography
           variant="p"
-          sx={{ fontSize: "2.5rem", textAlign: "center" }}
+          sx={{ fontSize: "1.8rem", textAlign: "center" }}
         >
           Es un proyecto de NFT colombiano que integra una colección de 666
           brujas que fueron asesinadas en la inquisición; cada bruja, construida

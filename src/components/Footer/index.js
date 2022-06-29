@@ -39,21 +39,21 @@ export const Footer = () => {
         <Image src={wifiImg} width={250} height={75} />
       </Box>
       <Box sx={style2}>
-        <div style={{ margin: "10px" }}>
+        <a href="https://t.me/wifimarco" style={{ margin: "10px" }}>
           <Image src={telegramIcon} width={50} height={50} />
-        </div>
-        <div style={{ margin: "10px" }}>
+        </a>
+        <a href="https://www.fb.com/marwifico" style={{ margin: "10px" }}>
           <Image src={facebookIcon} width={50} height={50} />
-        </div>
-        <div style={{ margin: "10px" }}>
+        </a>
+        <a href="https://www.Twitter.Com/wifioficialnft " style={{ margin: "10px" }}>
           <Image src={twiterIcon} width={50} height={50} />
-        </div>
+        </a>
         <div style={{ margin: "10px" }}>
           <Image src={DiscordIcon} width={50} height={50} />
         </div>
-        <div style={{ margin: "10px" }}>
+        <a href="https://www.instagram.com/wifioficial" style={{ margin: "10px" }}>
           <Image src={InstagramIcon} width={50} height={50} />
-        </div>
+        </a>
       </Box>
     </>
   );
