@@ -18,11 +18,19 @@ const index = () => {
           width={700}
           height={350}
           style={{ marginTop: "80px" }}
+          alt="imagen akelarre"
         />
       </div>
       <div style={{ height: "5rem" }}></div>
-      <div style={{ width: "750px", marginRight: "auto", marginLeft: "auto" }}>
-        <Typography variant="p" align="right" sx={{ fontSize: "1.8rem"}}>
+      <div
+        style={{
+          width: "750px",
+          marginRight: "auto",
+          marginLeft: "auto",
+          textAlign: "justify",
+        }}
+      >
+        <Typography variant="p" sx={{ fontSize: "1.8rem" }}>
           Es un proyecto de NFT colombiano que integra una colección de 666
           brujas que fueron asesinadas en la inquisición; cada bruja, construida
           en modelos 3D, tiene una identidad propia, un número exclusivo que

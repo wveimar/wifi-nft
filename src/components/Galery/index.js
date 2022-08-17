@@ -1,6 +1,7 @@
 import * as React from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import style from './style.module.css'
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {
@@ -13,7 +14,7 @@ export default function QuiltedImageList() {
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <ImageList
-        sx={{ width: 1000, height: 290 }}
+        sx={{ width: 1000 }}
         variant="quilted"
         cols={5}
         rowHeight={140}
@@ -23,9 +24,10 @@ export default function QuiltedImageList() {
             key={item.img}
             cols={item.cols || 1}
             rows={item.rows || 1}
+            className={style.imgWitch}
           >
             <img
-              {...srcset(item.img, 130, item.rows, item.cols)}
+              {...srcset(item.img, 100, item.rows, item.cols)}
               alt={item.title}
               loading="lazy"
               style={{ objectFit: "scale-down" }}

@@ -1,0 +1,9 @@
+.imgWitch {
+  transition: transform 0.2s;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.imgWitch:hover {
+  transform: scale(1.5);
+}

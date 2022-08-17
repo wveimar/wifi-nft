@@ -13,7 +13,7 @@ const index = () => {
     >
       <div style={{ textAlign: "center" }}>
         <div style={{ height: "5rem" }}></div>
-        <Image src={roadMapa} width={700} height={350} />
+        <Image src={roadMapa} width={700} height={350} alt="logo road mapa"/>
       </div>
       <div style={{ height: "5rem" }}></div>
       <div style={{ width: "750px", marginRight: "auto", marginLeft: "auto" }}>
