@@ -10,6 +10,7 @@ const style = (theme) => ({
   position: "absolute",
   marginLeft: "auto",
   marginRight: "auto",
+  marginTop: "2rem",
   [theme.breakpoints.up("xl")]: {
     marginTop: "10rem",
     marginLeft: "8rem",
